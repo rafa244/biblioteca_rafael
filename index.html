@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Cadastro do Emprestimo</h1>
+	<form id="cadastro_emprestimo">
+		<label for="cgm_aluno">Cgm do Aluno:</label>
+		<input type="text" id="cgm_aluno"><br>
+		<br>
+		<label for="isbn_livro">Isbn do Livro:</label>
+		<input type="text" id="isbn_livro"><br>
+		<br>
+		<label for="data_emprestimo">Data do Emprestimo:</label>
+		<input type="text" id="data_emprestimo"><br>
+		<br>
+		<label for="data_devolucao">Data do devolução:</label>
+		<input type="text" id="data_devolucao"><br>
+		<br>
+		
+		<div class="btn-class">
+			<button type="button" id="subimit-btn-salvar" onclick="salvar()">salvar</button>
+			<button type="button" id="subimit-btn-consultar" onclick="consultar()">consultar</button>
+			<button type="button" id="subimit-btn-alterar" onclick="alterar()">alterar</button>
+			<button type="button" id="subimit-btn-apagar" onclick="pagar()">apagar</button>
+			
+		 </div>
+
+	</form>	
+	<script src="script.js"></script>
+</body>
+</html>
